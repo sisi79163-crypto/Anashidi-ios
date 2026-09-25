@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "q001",
+    "title": "سورة الفاتحة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "1",
+    "url": "https://server8.mp3quran.net/afs/001.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q002",
+    "title": "سورة البقرة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "2",
+    "url": "https://server8.mp3quran.net/afs/002.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q003",
+    "title": "سورة آل عمران",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "3",
+    "url": "https://server8.mp3quran.net/afs/003.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q004",
+    "title": "سورة النساء",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "4",
+    "url": "https://server8.mp3quran.net/afs/004.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q005",
+    "title": "سورة المائدة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "5",
+    "url": "https://server8.mp3quran.net/afs/005.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q006",
+    "title": "سورة الأنعام",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "6",
+    "url": "https://server8.mp3quran.net/afs/006.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q007",
+    "title": "سورة الأعراف",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "7",
+    "url": "https://server8.mp3quran.net/afs/007.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q008",
+    "title": "سورة الأنفال",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "8",
+    "url": "https://server8.mp3quran.net/afs/008.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q009",
+    "title": "سورة التوبة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "9",
+    "url": "https://server8.mp3quran.net/afs/009.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q010",
+    "title": "سورة يونس",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "10",
+    "url": "https://server8.mp3quran.net/afs/010.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q011",
+    "title": "سورة هود",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "11",
+    "url": "https://server8.mp3quran.net/afs/011.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q012",
+    "title": "سورة يوسف",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "12",
+    "url": "https://server8.mp3quran.net/afs/012.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q013",
+    "title": "سورة الرعد",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "13",
+    "url": "https://server8.mp3quran.net/afs/013.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q014",
+    "title": "سورة إبراهيم",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "14",
+    "url": "https://server8.mp3quran.net/afs/014.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q015",
+    "title": "سورة الحجر",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "15",
+    "url": "https://server8.mp3quran.net/afs/015.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q016",
+    "title": "سورة النحل",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "16",
+    "url": "https://server8.mp3quran.net/afs/016.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q017",
+    "title": "سورة الإسراء",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "17",
+    "url": "https://server8.mp3quran.net/afs/017.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q018",
+    "title": "سورة الكهف",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "18",
+    "url": "https://server8.mp3quran.net/afs/018.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q019",
+    "title": "سورة مريم",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "19",
+    "url": "https://server8.mp3quran.net/afs/019.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q020",
+    "title": "سورة طه",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "20",
+    "url": "https://server8.mp3quran.net/afs/020.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q021",
+    "title": "سورة الأنبياء",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "21",
+    "url": "https://server8.mp3quran.net/afs/021.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q022",
+    "title": "سورة الحج",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "22",
+    "url": "https://server8.mp3quran.net/afs/022.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q023",
+    "title": "سورة المؤمنون",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "23",
+    "url": "https://server8.mp3quran.net/afs/023.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q024",
+    "title": "سورة النور",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "24",
+    "url": "https://server8.mp3quran.net/afs/024.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q025",
+    "title": "سورة الفرقان",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "25",
+    "url": "https://server8.mp3quran.net/afs/025.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q026",
+    "title": "سورة الشعراء",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "26",
+    "url": "https://server8.mp3quran.net/afs/026.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q027",
+    "title": "سورة النمل",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "27",
+    "url": "https://server8.mp3quran.net/afs/027.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q028",
+    "title": "سورة القصص",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "28",
+    "url": "https://server8.mp3quran.net/afs/028.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q029",
+    "title": "سورة العنكبوت",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "29",
+    "url": "https://server8.mp3quran.net/afs/029.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q030",
+    "title": "سورة الروم",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "30",
+    "url": "https://server8.mp3quran.net/afs/030.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q031",
+    "title": "سورة لقمان",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "31",
+    "url": "https://server8.mp3quran.net/afs/031.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q032",
+    "title": "سورة السجدة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "32",
+    "url": "https://server8.mp3quran.net/afs/032.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q033",
+    "title": "سورة الأحزاب",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "33",
+    "url": "https://server8.mp3quran.net/afs/033.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q034",
+    "title": "سورة سبأ",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "34",
+    "url": "https://server8.mp3quran.net/afs/034.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q035",
+    "title": "سورة فاطر",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "35",
+    "url": "https://server8.mp3quran.net/afs/035.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q036",
+    "title": "سورة يس",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "36",
+    "url": "https://server8.mp3quran.net/afs/036.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q037",
+    "title": "سورة الصافات",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "37",
+    "url": "https://server8.mp3quran.net/afs/037.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q038",
+    "title": "سورة ص",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "38",
+    "url": "https://server8.mp3quran.net/afs/038.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q039",
+    "title": "سورة الزمر",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "39",
+    "url": "https://server8.mp3quran.net/afs/039.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q040",
+    "title": "سورة غافر",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "40",
+    "url": "https://server8.mp3quran.net/afs/040.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q041",
+    "title": "سورة فصلت",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "41",
+    "url": "https://server8.mp3quran.net/afs/041.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q042",
+    "title": "سورة الشورى",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "42",
+    "url": "https://server8.mp3quran.net/afs/042.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q043",
+    "title": "سورة الزخرف",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "43",
+    "url": "https://server8.mp3quran.net/afs/043.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q044",
+    "title": "سورة الدخان",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "44",
+    "url": "https://server8.mp3quran.net/afs/044.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q045",
+    "title": "سورة الجاثية",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "45",
+    "url": "https://server8.mp3quran.net/afs/045.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q046",
+    "title": "سورة الأحقاف",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "46",
+    "url": "https://server8.mp3quran.net/afs/046.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q047",
+    "title": "سورة محمد",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "47",
+    "url": "https://server8.mp3quran.net/afs/047.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q048",
+    "title": "سورة الفتح",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "48",
+    "url": "https://server8.mp3quran.net/afs/048.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q049",
+    "title": "سورة الحجرات",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "49",
+    "url": "https://server8.mp3quran.net/afs/049.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q050",
+    "title": "سورة ق",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "50",
+    "url": "https://server8.mp3quran.net/afs/050.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q051",
+    "title": "سورة الذاريات",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "51",
+    "url": "https://server8.mp3quran.net/afs/051.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q052",
+    "title": "سورة الطور",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "52",
+    "url": "https://server8.mp3quran.net/afs/052.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q053",
+    "title": "سورة النجم",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "53",
+    "url": "https://server8.mp3quran.net/afs/053.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q054",
+    "title": "سورة القمر",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "54",
+    "url": "https://server8.mp3quran.net/afs/054.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q055",
+    "title": "سورة الرحمن",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "55",
+    "url": "https://server8.mp3quran.net/afs/055.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q056",
+    "title": "سورة الواقعة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "56",
+    "url": "https://server8.mp3quran.net/afs/056.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q057",
+    "title": "سورة الحديد",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "57",
+    "url": "https://server8.mp3quran.net/afs/057.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q058",
+    "title": "سورة المجادلة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "58",
+    "url": "https://server8.mp3quran.net/afs/058.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q059",
+    "title": "سورة الحشر",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "59",
+    "url": "https://server8.mp3quran.net/afs/059.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q060",
+    "title": "سورة الممتحنة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "60",
+    "url": "https://server8.mp3quran.net/afs/060.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q061",
+    "title": "سورة الصف",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "61",
+    "url": "https://server8.mp3quran.net/afs/061.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q062",
+    "title": "سورة الجمعة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "62",
+    "url": "https://server8.mp3quran.net/afs/062.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q063",
+    "title": "سورة المنافقون",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "63",
+    "url": "https://server8.mp3quran.net/afs/063.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q064",
+    "title": "سورة التغابن",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "64",
+    "url": "https://server8.mp3quran.net/afs/064.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q065",
+    "title": "سورة الطلاق",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "65",
+    "url": "https://server8.mp3quran.net/afs/065.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q066",
+    "title": "سورة التحريم",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "66",
+    "url": "https://server8.mp3quran.net/afs/066.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q067",
+    "title": "سورة الملك",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "67",
+    "url": "https://server8.mp3quran.net/afs/067.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q068",
+    "title": "سورة القلم",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "68",
+    "url": "https://server8.mp3quran.net/afs/068.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q069",
+    "title": "سورة الحاقة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "69",
+    "url": "https://server8.mp3quran.net/afs/069.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q070",
+    "title": "سورة المعارج",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "70",
+    "url": "https://server8.mp3quran.net/afs/070.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q071",
+    "title": "سورة نوح",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "71",
+    "url": "https://server8.mp3quran.net/afs/071.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q072",
+    "title": "سورة الجن",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "72",
+    "url": "https://server8.mp3quran.net/afs/072.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q073",
+    "title": "سورة المزمل",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "73",
+    "url": "https://server8.mp3quran.net/afs/073.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q074",
+    "title": "سورة المدثر",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "74",
+    "url": "https://server8.mp3quran.net/afs/074.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q075",
+    "title": "سورة القيامة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "75",
+    "url": "https://server8.mp3quran.net/afs/075.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q076",
+    "title": "سورة الإنسان",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "76",
+    "url": "https://server8.mp3quran.net/afs/076.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q077",
+    "title": "سورة المرسلات",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "77",
+    "url": "https://server8.mp3quran.net/afs/077.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q078",
+    "title": "سورة النبأ",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "78",
+    "url": "https://server8.mp3quran.net/afs/078.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q079",
+    "title": "سورة النازعات",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "79",
+    "url": "https://server8.mp3quran.net/afs/079.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q080",
+    "title": "سورة عبس",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "80",
+    "url": "https://server8.mp3quran.net/afs/080.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q081",
+    "title": "سورة التكوير",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "81",
+    "url": "https://server8.mp3quran.net/afs/081.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q082",
+    "title": "سورة الانفطار",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "82",
+    "url": "https://server8.mp3quran.net/afs/082.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q083",
+    "title": "سورة المطففين",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "83",
+    "url": "https://server8.mp3quran.net/afs/083.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q084",
+    "title": "سورة الانشقاق",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "84",
+    "url": "https://server8.mp3quran.net/afs/084.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q085",
+    "title": "سورة البروج",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "85",
+    "url": "https://server8.mp3quran.net/afs/085.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q086",
+    "title": "سورة الطارق",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "86",
+    "url": "https://server8.mp3quran.net/afs/086.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q087",
+    "title": "سورة الأعلى",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "87",
+    "url": "https://server8.mp3quran.net/afs/087.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q088",
+    "title": "سورة الغاشية",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "88",
+    "url": "https://server8.mp3quran.net/afs/088.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q089",
+    "title": "سورة الفجر",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "89",
+    "url": "https://server8.mp3quran.net/afs/089.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q090",
+    "title": "سورة البلد",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "90",
+    "url": "https://server8.mp3quran.net/afs/090.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q091",
+    "title": "سورة الشمس",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "91",
+    "url": "https://server8.mp3quran.net/afs/091.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q092",
+    "title": "سورة الليل",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "92",
+    "url": "https://server8.mp3quran.net/afs/092.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q093",
+    "title": "سورة الضحى",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "93",
+    "url": "https://server8.mp3quran.net/afs/093.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q094",
+    "title": "سورة الشرح",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "94",
+    "url": "https://server8.mp3quran.net/afs/094.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q095",
+    "title": "سورة التين",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "95",
+    "url": "https://server8.mp3quran.net/afs/095.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q096",
+    "title": "سورة العلق",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "96",
+    "url": "https://server8.mp3quran.net/afs/096.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q097",
+    "title": "سورة القدر",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "97",
+    "url": "https://server8.mp3quran.net/afs/097.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q098",
+    "title": "سورة البينة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "98",
+    "url": "https://server8.mp3quran.net/afs/098.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q099",
+    "title": "سورة الزلزلة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "99",
+    "url": "https://server8.mp3quran.net/afs/099.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q100",
+    "title": "سورة العاديات",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "100",
+    "url": "https://server8.mp3quran.net/afs/100.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q101",
+    "title": "سورة القارعة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "101",
+    "url": "https://server8.mp3quran.net/afs/101.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q102",
+    "title": "سورة التكاثر",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "102",
+    "url": "https://server8.mp3quran.net/afs/102.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q103",
+    "title": "سورة العصر",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "103",
+    "url": "https://server8.mp3quran.net/afs/103.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q104",
+    "title": "سورة الهمزة",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "104",
+    "url": "https://server8.mp3quran.net/afs/104.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q105",
+    "title": "سورة الفيل",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "105",
+    "url": "https://server8.mp3quran.net/afs/105.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q106",
+    "title": "سورة قريش",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "106",
+    "url": "https://server8.mp3quran.net/afs/106.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q107",
+    "title": "سورة الماعون",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "107",
+    "url": "https://server8.mp3quran.net/afs/107.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q108",
+    "title": "سورة الكوثر",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "108",
+    "url": "https://server8.mp3quran.net/afs/108.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q109",
+    "title": "سورة الكافرون",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "109",
+    "url": "https://server8.mp3quran.net/afs/109.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q110",
+    "title": "سورة النصر",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "110",
+    "url": "https://server8.mp3quran.net/afs/110.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q111",
+    "title": "سورة المسد",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "111",
+    "url": "https://server8.mp3quran.net/afs/111.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q112",
+    "title": "سورة الإخلاص",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "112",
+    "url": "https://server8.mp3quran.net/afs/112.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q113",
+    "title": "سورة الفلق",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "113",
+    "url": "https://server8.mp3quran.net/afs/113.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "q114",
+    "title": "سورة الناس",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "quran",
+    "number": "114",
+    "url": "https://server8.mp3quran.net/afs/114.mp3",
+    "source": "https://www.mp3quran.net/ar/afs"
+  },
+  {
+    "id": "n-rahman",
+    "title": "رحمن يا رحمن",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "nasheed",
+    "url": "https://server1.samaanetwork.net/Full.Albums/Mishary.Alafasy/Album.Tara7ame.Ya.Qloob/10-Ra7man.Ya.Ra7man.mp3",
+    "source": "https://play.samaanetwork.net/music/ra7man/"
+  },
+  {
+    "id": "n-rattel",
+    "title": "رتل",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "nasheed",
+    "url": "https://server1.samaanetwork.net/Full.Albums/Mishary.Alafasy/Album.Tara7ame.Ya.Qloob/09-Rattel.2.mp3",
+    "source": "https://play.samaanetwork.net/music/ra7man/"
+  },
+  {
+    "id": "n-insan",
+    "title": "إنسان",
+    "artist": "مشاري راشد العفاسي",
+    "kind": "nasheed",
+    "url": "https://server1.samaanetwork.net/Full.Albums/Mishary.Alafasy/Album.Tara7ame.Ya.Qloob/07-Insan.mp3",
+    "source": "https://play.samaanetwork.net/music/ra7man/"
+  }
+]

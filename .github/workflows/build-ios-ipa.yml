@@ -26,22 +26,16 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Validate and bundle audio
+        run: python3 scripts/prepare_audio.py
+
       - name: Create iOS project
         run: |
           npx cap add ios
           npx cap sync ios
 
-      - name: Configure iOS app
-        shell: bash
-        run: |
-          PLIST="ios/App/App/Info.plist"
-          /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName Anashidi" "$PLIST"
-          /usr/libexec/PlistBuddy -c "Set :CFBundleName Anashidi" "$PLIST"
-          /usr/libexec/PlistBuddy -c "Add :NSAppTransportSecurity dict" "$PLIST" || true
-          /usr/libexec/PlistBuddy -c "Add :NSAppTransportSecurity:NSAllowsArbitraryLoads bool true" "$PLIST" || /usr/libexec/PlistBuddy -c "Set :NSAppTransportSecurity:NSAllowsArbitraryLoads true" "$PLIST"
-          /usr/libexec/PlistBuddy -c "Add :UIBackgroundModes array" "$PLIST" || true
-          /usr/libexec/PlistBuddy -c "Add :UIBackgroundModes:0 string audio" "$PLIST" || true
-          /usr/libexec/PlistBuddy -c "Add :LSApplicationCategoryType string public.app-category.music" "$PLIST" || true
+      - name: Configure native audio engine
+        run: python3 scripts/configure_ios.py
 
       - name: Generate app icons
         shell: bash
@@ -83,8 +77,8 @@ jobs:
             CODE_SIGN_IDENTITY="" \
             DEVELOPMENT_TEAM="" \
             PRODUCT_BUNDLE_IDENTIFIER="com.mostafa.anashidi" \
-            MARKETING_VERSION="1.0.1" \
-            CURRENT_PROJECT_VERSION="2" \
+            MARKETING_VERSION="2.0" \
+            CURRENT_PROJECT_VERSION="3" \
             clean build
 
       - name: Package unsigned IPA
@@ -95,14 +89,21 @@ jobs:
           rm -rf Payload
           mkdir Payload
           cp -R "$APP_PATH" Payload/Anashidi.app
-          /usr/bin/zip -qry Anashidi-1.0.1-SideStore.ipa Payload
-          /usr/bin/unzip -t Anashidi-1.0.1-SideStore.ipa
-          ls -lh Anashidi-1.0.1-SideStore.ipa
+          /usr/bin/zip -qry Anashidi-2.0-SideStore.ipa Payload
+          /usr/bin/unzip -t Anashidi-2.0-SideStore.ipa
+          ls -lh Anashidi-2.0-SideStore.ipa
 
       - name: Upload IPA
         uses: actions/upload-artifact@v4
         with:
           name: Anashidi-IPA
-          path: Anashidi-1.0.1-SideStore.ipa
+          path: Anashidi-2.0-SideStore.ipa
           if-no-files-found: error
           retention-days: 30
+
+      - name: Upload source verification
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Audio-source-check
+          path: source-check.json
