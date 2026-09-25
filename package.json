@@ -1,0 +1,16 @@
+{
+  "name": "anashidi-ios",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "ios:init": "npx cap add ios",
+    "ios:sync": "npx cap sync ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/ios": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0"
+  }
+}

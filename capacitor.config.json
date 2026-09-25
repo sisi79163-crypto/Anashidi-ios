@@ -1,0 +1,9 @@
+{
+  "appId": "com.mostafa.anashidi",
+  "appName": "أناشيدي",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "automatic",
+    "preferredContentMode": "mobile"
+  }
+}

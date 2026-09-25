@@ -1,0 +1,11 @@
+{
+  "name":"أناشيدي",
+  "short_name":"أناشيدي",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#0f1011",
+  "theme_color":"#0f1011",
+  "lang":"ar",
+  "dir":"rtl",
+  "icons":[]
+}

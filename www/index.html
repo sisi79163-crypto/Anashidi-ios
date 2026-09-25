@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#121212" />
+  <meta name="description" content="أناشيدي - تطبيق ويب عربي للاستماع إلى الأناشيد" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>أناشيدي</title>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">مرحباً بك في</div>
+        <h1>أناشيدي</h1>
+      </div>
+      <button class="icon-btn" id="themeBtn" aria-label="تبديل المظهر">◐</button>
+    </header>
+
+    <main id="app" class="content"></main>
+
+    <section id="miniPlayer" class="mini-player hidden" aria-live="polite">
+      <img id="miniCover" alt="غلاف النشيد" />
+      <div class="mini-meta" id="openPlayer">
+        <strong id="miniTitle">—</strong>
+        <span id="miniArtist">—</span>
+      </div>
+      <button id="prevBtn" class="player-icon" aria-label="السابق">⏮</button>
+      <button id="playPauseBtn" class="play-btn" aria-label="تشغيل أو إيقاف">▶</button>
+      <button id="nextBtn" class="player-icon" aria-label="التالي">⏭</button>
+    </section>
+
+    <nav class="bottom-nav" aria-label="التنقل الرئيسي">
+      <button data-route="home" class="nav-item active"><span>⌂</span><small>الرئيسية</small></button>
+      <button data-route="search" class="nav-item"><span>⌕</span><small>البحث</small></button>
+      <button data-route="favorites" class="nav-item"><span>♡</span><small>المفضلة</small></button>
+      <button data-route="library" class="nav-item"><span>▤</span><small>مكتبتي</small></button>
+    </nav>
+  </div>
+
+  <dialog id="playerDialog" class="player-dialog">
+    <button class="dialog-close" id="closePlayer" aria-label="إغلاق">×</button>
+    <img id="fullCover" class="full-cover" alt="غلاف النشيد" />
+    <h2 id="fullTitle">—</h2>
+    <p id="fullArtist">—</p>
+    <input id="seek" type="range" min="0" max="100" value="0" aria-label="شريط التقدم" />
+    <div class="time-row"><span id="currentTime">0:00</span><span id="duration">0:00</span></div>
+    <div class="big-controls">
+      <button id="favCurrent" class="round-btn" aria-label="المفضلة">♡</button>
+      <button id="fullPrev" class="round-btn">⏮</button>
+      <button id="fullPlay" class="big-play">▶</button>
+      <button id="fullNext" class="round-btn">⏭</button>
+      <button id="repeatBtn" class="round-btn" aria-label="تكرار">↻</button>
+    </div>
+    <section class="lyrics-card">
+      <h3>الكلمات</h3>
+      <p id="lyrics">لا توجد كلمات مضافة لهذا النشيد.</p>
+    </section>
+  </dialog>
+
+  <dialog id="detailsDialog" class="details-dialog">
+    <button class="dialog-close" id="closeDetails" aria-label="إغلاق">×</button>
+    <div id="detailsContent"></div>
+  </dialog>
+
+  <audio id="audio"></audio>
+  <script src="app.js"></script>
+</body>
+</html>

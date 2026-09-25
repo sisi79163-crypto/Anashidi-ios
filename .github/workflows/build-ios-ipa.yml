@@ -1,0 +1,107 @@
+name: Build Anashidi iOS IPA
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-ios:
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Create iOS project
+        run: |
+          npx cap add ios
+          npx cap sync ios
+
+      - name: Configure iOS app
+        shell: bash
+        run: |
+          PLIST="ios/App/App/Info.plist"
+          /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName أناشيدي" "$PLIST" || true
+          /usr/libexec/PlistBuddy -c "Add :NSAppTransportSecurity dict" "$PLIST" || true
+          /usr/libexec/PlistBuddy -c "Add :NSAppTransportSecurity:NSAllowsArbitraryLoads bool true" "$PLIST" || /usr/libexec/PlistBuddy -c "Set :NSAppTransportSecurity:NSAllowsArbitraryLoads true" "$PLIST"
+          /usr/libexec/PlistBuddy -c "Add :UIBackgroundModes array" "$PLIST" || true
+          /usr/libexec/PlistBuddy -c "Add :UIBackgroundModes:0 string audio" "$PLIST" || true
+          /usr/libexec/PlistBuddy -c "Add :LSApplicationCategoryType string public.app-category.music" "$PLIST" || true
+
+      - name: Generate app icons
+        shell: bash
+        run: |
+          ICONSET="ios/App/App/Assets.xcassets/AppIcon.appiconset"
+          rm -rf "$ICONSET"
+          mkdir -p "$ICONSET"
+          cp resources/icon.png "$ICONSET/AppIcon-1024.png"
+          sips -z 120 120 resources/icon.png --out "$ICONSET/AppIcon-60@2x.png" >/dev/null
+          sips -z 180 180 resources/icon.png --out "$ICONSET/AppIcon-60@3x.png" >/dev/null
+          sips -z 152 152 resources/icon.png --out "$ICONSET/AppIcon-76@2x.png" >/dev/null
+          sips -z 167 167 resources/icon.png --out "$ICONSET/AppIcon-83.5@2x.png" >/dev/null
+          cat > "$ICONSET/Contents.json" <<'JSON'
+          {
+            "images" : [
+              {"filename":"AppIcon-60@2x.png","idiom":"iphone","scale":"2x","size":"60x60"},
+              {"filename":"AppIcon-60@3x.png","idiom":"iphone","scale":"3x","size":"60x60"},
+              {"filename":"AppIcon-76@2x.png","idiom":"ipad","scale":"2x","size":"76x76"},
+              {"filename":"AppIcon-83.5@2x.png","idiom":"ipad","scale":"2x","size":"83.5x83.5"},
+              {"filename":"AppIcon-1024.png","idiom":"ios-marketing","scale":"1x","size":"1024x1024"}
+            ],
+            "info" : {"author":"xcode","version":1}
+          }
+          JSON
+
+      - name: Build unsigned device app
+        shell: bash
+        run: |
+          mkdir -p build
+          xcodebuild \
+            -project ios/App/App.xcodeproj \
+            -scheme App \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath "$PWD/build/DerivedData" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            DEVELOPMENT_TEAM="" \
+            PRODUCT_BUNDLE_IDENTIFIER="com.mostafa.anashidi" \
+            MARKETING_VERSION="1.0" \
+            CURRENT_PROJECT_VERSION="1" \
+            clean build
+
+      - name: Package unsigned IPA
+        shell: bash
+        run: |
+          APP_PATH=$(find build/DerivedData/Build/Products/Release-iphoneos -maxdepth 1 -name '*.app' -print -quit)
+          test -n "$APP_PATH"
+          rm -rf Payload
+          mkdir Payload
+          cp -R "$APP_PATH" Payload/Anashidi.app
+          /usr/bin/zip -qry Anashidi-1.0-unsigned.ipa Payload
+          /usr/bin/unzip -t Anashidi-1.0-unsigned.ipa
+          ls -lh Anashidi-1.0-unsigned.ipa
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: Anashidi-IPA
+          path: Anashidi-1.0-unsigned.ipa
+          if-no-files-found: error
+          retention-days: 30
