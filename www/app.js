@@ -72,9 +72,10 @@ async function boot(){
   catalog=await fetch('catalog.json').then(r=>{if(!r.ok)throw Error('تعذر فتح المكتبة');return r.json()});
   if(!localStorage.getItem('migrated_v2')){const old=read('anashidi_tracks',[]);for(const t of old){if(t.audio&&/^https?:\/\//.test(t.audio))custom.push({id:'custom-'+crypto.randomUUID(),title:t.title,artist:t.artist||'من مكتبتي',url:t.audio,kind:'nasheed'})}write('custom_v2',custom);localStorage.setItem('migrated_v2','1')}
   if(window.Capacitor?.isNativePlatform()){
-   engine=window.Capacitor.registerPlugin('AudioEngine');
+   engine={addListener:(event,callback)=>Promise.resolve(window.Capacitor.addListener('AudioEngine',event,callback))};
+   for(const name of ['play','control','state','downloads','download','cancelDownload','deleteDownload','importFile','sleep','settings'])engine[name]=(args={})=>window.Capacitor.nativePromise('AudioEngine',name,args);
    await engine.addListener('state',updateState);
-   let dlTimer;await engine.addListener('downloads',d=>{downloads=d;clearTimeout(dlTimer);dlTimer=setTimeout(()=>{if(route==='downloads')renderDownloads()},450)});
+   let dlTimer;await engine.addListener('downloads',d=>{downloads=d;if(!dlTimer)dlTimer=setTimeout(()=>{dlTimer=null;if(route==='downloads')renderDownloads()},450)});
    await engine.addListener('error',e=>toast(e.message));
    downloads=await invoke('downloads');state=await invoke('state');updateState(state);
   }

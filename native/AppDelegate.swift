@@ -64,6 +64,7 @@ public class AudioEngine: CAPPlugin, CAPBridgedPlugin, URLSessionDownloadDelegat
     public override func load() { setup() }
     private func setup() {
         guard !booted else { return }; booted = true
+        defaults.register(defaults: ["wifiOnly": true])
         do { try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default); try AVAudioSession.sharedInstance().setActive(true) } catch { }
         _ = session
         let remote = MPRemoteCommandCenter.shared()
